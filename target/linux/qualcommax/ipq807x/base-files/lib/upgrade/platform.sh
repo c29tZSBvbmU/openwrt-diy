@@ -127,7 +127,6 @@ platform_pre_upgrade() {
 
 platform_do_upgrade() {
 	case "$(board_name)" in
- 	brax,fa556|\
 	arcadyan,aw1000|\
 	cmcc,rm2-6|\
 	compex,wpq873|\
@@ -230,6 +229,7 @@ platform_do_upgrade() {
 		fw_setenv upgrade_available 1
 		nand_do_upgrade "$1"
 		;;
+  	brax,fa556|\
 	zbtlink,zbt-z800ax)
 		local mtdnum="$(find_mtd_index 0:bootconfig)"
 		local alt_mtdnum="$(find_mtd_index 0:bootconfig1)"
