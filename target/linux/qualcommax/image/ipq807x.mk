@@ -434,7 +434,8 @@ define Device/brax_fa556
 	PAGESIZE := 2048
 	DEVICE_DTS_CONFIG := config@hk09
 	SOC := ipq8072
-	DEVICE_PACKAGES := ipq-wifi-brax_fa556
+	DEVICE_PACKAGES := ipq-wifi-brax_fa556 kmod-spi-gpio \
+		kmod-gpio-nxp-74hc164 kmod-usb-serial-option uqmi
 	IMAGES += factory.bin
 	IMAGE/factory.bin := append-ubi | qsdk-ipq-factory-nand
 endef
