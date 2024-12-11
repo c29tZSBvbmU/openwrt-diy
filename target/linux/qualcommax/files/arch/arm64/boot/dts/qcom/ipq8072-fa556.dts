@@ -11,8 +11,8 @@
 #include <dt-bindings/leds/common.h>
 
 / {
-	model = "Arcadyan AW1000";
-	compatible = "arcadyan,aw1000", "qcom,ipq8074";
+	model = "BRAX FA556";
+	compatible = "brax,fa556", "qcom,ipq8074";
 
 	aliases {
 		led-boot = &led_power;
