@@ -1,3 +1,21 @@
+不要使用该仓库 fa556的适配并没有完成
+不要使用该仓库 fa556的适配并没有完成
+不要使用该仓库 fa556的适配并没有完成
+Do not use this warehouse, the adaptation of fa556 has not been completed
+Do not use this warehouse, the adaptation of fa556 has not been completed
+Do not use this warehouse, the adaptation of fa556 has not been completed
+
+
+
+
+
+
+
+
+
+
+
+
 ![OpenWrt logo](include/logo.png)
 
 OpenWrt Project is a Linux operating system targeting embedded devices. Instead
